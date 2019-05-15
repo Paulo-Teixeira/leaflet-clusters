@@ -9,11 +9,8 @@
   border-radius: 50%;
   color: #fff;
   display: flex;
-  height: 40px;
   justify-content: center;
   position: relative;
-  text-align: center;
-  width: 40px;
 }
 
 .info__bubble {
