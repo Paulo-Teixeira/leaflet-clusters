@@ -16,11 +16,12 @@ const markers = L.markerClusterGroup({
     return L.divIcon(
       { 
         html:
-          `<div class="info">
-            ${n}
-            <span class="info__bubble">${n}</span>
-          </div>`,
-        className: 'cluster'
+          `
+          ${n}
+          <span class="info__bubble">${n}</span>
+         `,
+        className: 'info',
+        iconSize: L.point(40, 40)
       });
   },
   spiderfyOnMaxZoom: false, showCoverageOnHover: false, zoomToBoundsClick: false
